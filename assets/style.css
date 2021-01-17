@@ -1,3 +1,5 @@
+
+
 *, *::before, *::after 
 {
     box-sizing: border-box;
@@ -82,8 +84,8 @@
   
  h1 {
     color: var(--primary);
-    font-size: 3.0rem;
     font-weight: bold;
+    color: white;
   }
 
   p {
@@ -152,6 +154,7 @@
   }
   #initials-form{
     text-align: center;
+    color: white;
   }
 #Sorry{
     color: red;
@@ -195,8 +198,9 @@
   .btn-grid {
       display: grid;
       grid-template-columns: repeat(2, auto);
-      grid-gap: 0px;
+      grid-gap: 30px;
       margin: 20px;
+      margin-left: 100px;
      
   }
 
@@ -211,8 +215,11 @@
      font-size: 1.0vw;
      margin-top: 20px;
      margin-left: 15px;
-     margin-right: 300px;
-    
+     margin-right: 250px;
+     display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-gap: 0px;
+      margin: 20px;
  }
 
  /* correct/wrong styling */
@@ -223,6 +230,12 @@
      color: rgba(199, 187, 187, 0.8);
      font-style: italic;
      margin: 0px 100px;
+ }
+
+ #lastcontainer{
+    align-items: center;
+    text-align: center;
+  
  }
 
 .banner h2 {
@@ -252,27 +265,20 @@ li {
     color: white;
 }
 
-/* media query for smaller screens */
 
-@media screen and (max-width: 1024px) {
-
-    .btn {
-        width: 100%;
-        font-size: 3.0vw;
-      
-        
-    }
 
     #test {
-        font-size: 1vw;
+        font-size: 2.5vw;
+        color: white;
     }
 
     h1 {
-        font-size: 1.5vw;
+        font-size: 3.0vw;
     }
 
     p {
-        font-size: 1vw;
+        font-size: 2vw;
+        color: white;
 
 
           }
