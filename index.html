@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+<header>
+
+<h1 id="view-history-scores">Vire History Scores </h1>
+<h3 class="Time">Time: <span id="time"></span></h3>
+
+</header>
+
+
+<div class="main" class="page1">
+<div class="page1-container">
+<h1>Take Coding Challenge Quiz</h1>
+<h3>Instruction</h3>
+<p>Welcome to JavaScript quize.  There are 5 questions.  
+    Each correct answer will receive 5 points. 
+    However, each incorrect answer will reduce 1 point and your time by 3 seconds.</p>
+
+<button class="started" id= "start-quize">Start Quiz</button>
+</div>
+</div>
+    
+<div id="start-container" class="hide">
+    <div class="question-container" >
+     <div id="question">Question</div>
+     <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+
+</div>
+<div id="end-container" class="hide">
+           <div class="container end">
+            <div id=score-banner>
+                <h1>All done!</h1>
+            </div>  
+            <form id="initials-form" class="initials">
+              <p> Enter Initials:
+                <input type="text" name="initials" id="initials" class="text-input" />
+                <button class="btn startend" id="sumbit-score" type="submit">Submit</button> </p>
+              </form>
+            </div>
+        </div>
+
+        <div id="high-score-container" class="hide">
+          <div class="high-scores container">
+            <h1 class="high-score">High Scores</h1>
+            <ol id="high-score-list" class="score-list"></ol>
+        <div>
+            <button class="btn" id="go-back">Go back</button>
+            <button class="btn" id="clear-high-scores">Clear high scores</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="hide" id="correct">
+        <h2>Correct :)!</h2>
+    </div>
+    <div class="hide" id="wrong">
+        <h2>Wrong :( </h2>
+    </div>
+
+    <script src="script.js"></script> 
+
+
+
+
+</body>
+
+
+
+
+
+<script> src="script.js"</script>
+
+
+</body>
+</html>
