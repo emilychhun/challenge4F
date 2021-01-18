@@ -200,7 +200,6 @@
         }
         let formInitials = document.getElementById("initials-form")
      
-       formInitials.reset();
       
       
        // Array score
@@ -220,6 +219,9 @@
           alert("Enter your intials!");
           return;
         }
+
+
+        formInitials.reset();
 
      let HighScore = {
       initials: initials,
