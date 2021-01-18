@@ -6,7 +6,9 @@
     font-family: Gotham Rounded;
 }
   
-  :root {
+ 
+
+:root {
     --primary: #0a0808c5;
     --secondary: #8207a1;
     --tertiary: rgb(211, 56, 144);
@@ -15,6 +17,9 @@
    --hue-neutral: 200;
    
   }
+
+
+
 
   body {
     background: #ededed;
@@ -74,11 +79,14 @@
       background-color: hsl(var(--hue), 100%, 20%);
       margin-top: 50px;
   }
+  
   #body-question{
       margin-top: 50px;
       font-size: 1.0rem;
       margin-bottom: 20px;
-
+      width: 1500px;
+      text-align: center;
+    
     }
    
   
@@ -201,8 +209,11 @@
       grid-gap: 30px;
       margin: 20px;
       margin-left: 100px;
+
+      
+      }
      
-  }
+  
 
  .startend {
      width: 25%;
@@ -219,7 +230,7 @@
      display: grid;
       grid-template-columns: repeat(2, auto);
       grid-gap: 0px;
-      margin: 20px;
+      margin: 20px;    
  }
 
  /* correct/wrong styling */
