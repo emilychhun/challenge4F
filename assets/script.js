@@ -321,6 +321,7 @@
 
     viweYourScore()
       //set up btn
+      
       formInitials.addEventListener("submit", createHighScore)
       btnClearScoresEl.addEventListener("click", resetScores)
       ViewScoreEl.addEventListener("click", showyourPoint)
